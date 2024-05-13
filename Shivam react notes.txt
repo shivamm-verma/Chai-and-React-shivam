@@ -1,0 +1,55 @@
+#Day1
+git init (delete .git folder if don't want)
+
+$ npx create-react-app 01basicreact (slow type)
+
+{check for possible *scripts* in Package.json}
+$ npm run start
+$ npm run build
+
+[create project using Vite]
+$ npm create vite@latest
+
+#Day2
+[notes]
+- in vite+react, we can create and save a component like shivam.jsx and recall it in the main.jsx , using the similar protocols.
+$ import ShivamDamn from "./Shivam.jsx"
+$ <ShivamDamn/>
+
+[vite+react]
+-And in React only, we will save the file as Shivam.js, and follow the similar protocols.
+- in main.jsx, all the components are called.
+- in App.jsx, function App(){...} is defined which returns html like:
+function App() {
+	return(
+		<>
+		<h1>Hello there</h1>
+		<p> Nice to meet you!</p>
+		</>
+	)}
+
+export default App;
+
+- in main.jsx, it'd be like just with similar protocols(rules):
+import React from "react";
+import ReactDOM from "react-dom/client";
+import App from "./App.jsx"
+...
+in reactdom, call
+<App/>
+<ShivamDamn/>
+
+(make sure these are exported in there .jsx files)
+
+- similar progress is in just React, only diffrence is that the files(component files) are created in .js format, like Shivam.js
+
+-- in React only, the main file is index.js & in Vite+React, the main file is main.jsx
+
+- the component function name must start with a Uppercase letter like Blog(), not blog()
+
+- by convention, If file is returning HTML code, then the file extension must be .jsx, but if the file only returning Javascript code, then it should be .js only
+
+
+
+
+

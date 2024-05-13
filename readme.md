@@ -8,3 +8,5 @@ I am Learning React.Js from Scratch in this Repo
 <img src="https://img.shields.io/github/repo-size/shivamm-verma/Learn-React.svg?label=Repo%20size&style=flat-square" height="20">
 
 # React Js
+
+Check out [My Typed Notes](./Shivam%20react%20notes.txt) 
