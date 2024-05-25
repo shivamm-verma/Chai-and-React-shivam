@@ -49,7 +49,19 @@ in reactdom, call
 
 - by convention, If file is returning HTML code, then the file extension must be .jsx, but if the file only returning Javascript code, then it should be .js only
 
+#Day3 (customReactJs)
+[vite+react]
+- functions can be written in the main.jsx and can be recalled in it. (not suggested btw)
+const newFunc = function () {
+	return (
+		<>
+		<h1>new function here.</h1>
+		</>
+	)
+}
+& in render >>> <newFunc/>
 
-
+- We can also store value of constants in any components(app.jsx,shivam.jsx) and store value string number or anything else.
+And recall in the return tag in {} (mind: only constants can be called, not statements)
 
 
