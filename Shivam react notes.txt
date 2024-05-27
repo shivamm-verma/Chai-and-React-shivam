@@ -76,3 +76,20 @@ And recall in the return tag in {} (mind: only constants can be called, not stat
 	setCounter(counter-1)		, or.		
 	setCounter(counter="Invalid")		
 
+#Day5
+[vite+React] React Fibres(Virt DOM)
+- take a look: https://github.com/acdlite/react-fiber-architecture
+~important points~
+- The goal of React Fiber is to increase its suitability for areas like animation, layout, and gestures. (React's fastness and non reloading of th website=+++)
+Its headline feature is incremental rendering: the ability to split rendering work into chunks and spread it out over multiple frames.
+- Other key features include the ability to pause, abort, or reuse work as new updates come in;
+the ability to assign priority to different types of updates; and new concurrency primitives.
+- Diffing of lists is performed using keys. Keys should be "stable, predictable, and unique."
+- The key points are:
+		- In a UI, it's not necessary for every update to be applied immediately;
+		in fact, doing so can be wasteful, causing frames to drop and degrading the user experience.
+		- Different types of updates have different priorities — an animation update needs to complete more quickly than, say, 
+		an update from a data store.
+		- A push-based approach requires the app (you, the programmer) to decide how to schedule work.
+		A pull-based approach allows the framework (React) to be smart and make those decisions for you.
+- 
