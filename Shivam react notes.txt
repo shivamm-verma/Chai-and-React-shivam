@@ -64,4 +64,15 @@ const newFunc = function () {
 - We can also store value of constants in any components(app.jsx,shivam.jsx) and store value string number or anything else.
 And recall in the return tag in {} (mind: only constants can be called, not statements)
 
+#Day4
+[vite+react] basics/hooks
+
+- the UI changing is taken care by React.
+-to define a variable, whose value is to be updated in the UI, then we define it by:
+	import {useState} from "react";				(hooks)
+	let [counter, setCounter] = useState(15);
+- when we are to change the value, we do:
+	setCounter(counter+1)		, or.	
+	setCounter(counter-1)		, or.		
+	setCounter(counter="Invalid")		
 
