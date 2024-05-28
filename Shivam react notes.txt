@@ -1,14 +1,16 @@
 #Day1
-git init (delete .git folder if don't want)
+git init (delete .git folder if don't want Version)
 
 $ npx create-react-app 01basicreact (slow type)
 
 {check for possible *scripts* in Package.json}
 $ npm run start
+$ npm run dev
 $ npm run build
 
 [create project using Vite]
-$ npm create vite@latest
+$ npm create vite@latest (the, $npm i)
+$ yarn create vite (then, $ yarn)
 
 #Day2
 [notes]
@@ -92,4 +94,30 @@ the ability to assign priority to different types of updates; and new concurrenc
 		an update from a data store.
 		- A push-based approach requires the app (you, the programmer) to decide how to schedule work.
 		A pull-based approach allows the framework (React) to be smart and make those decisions for you.
-- 
+~
+
+#Day6
+[vite+React] Tailwind and props
+
+- Tailwind installation in a React Application
+	- visit: https://tailwindcss.com/docs/guides/vite
+	- or,{
+	npm create vite@latest my-project -- --template react
+	cd my-project
+	npm install -D tailwindcss postcss autoprefixer
+	npx tailwindcss init -p
+	} + changes in tailwind.config.js + index.css
+- more components are here: https://www.devui.io/components
+- And, Tailblocks: https://tailblocks.cc/
+
+[props]
+in card.jsx
+- function Card({aboutWho}) {
+	<p>My name is {aboutWho}</p>
+	... }
+then in App.jsx we can,
+	<Card aboutWho="Shivam Verma" />
+- props are used in components, for changing any name, link , photo, etc. in a component,
+(could be for displaying card or showing photo, etc.)
+
+
