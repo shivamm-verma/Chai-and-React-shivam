@@ -120,4 +120,23 @@ then in App.jsx we can,
 - props are used in components, for changing any name, link , photo, etc. in a component,
 (could be for displaying card or showing photo, etc.)
 
+#Day7
+[interview questions]
+-  if userState counter(=15), setCounter exists, then if:
+code;
+const btnAddVal = () => {
+	single batch considered~ {{{ setCounter(counter+1)	// only 16 will be printed
+	setCounter(counter+1)	// only 16 will be printed
+	setCounter(counter+1)	// only 16 will be printed
+	setCounter(counter+1) }}}	// only 16 will be printed, because Fibre words/updates website in patches
+}
+- so to do so,do:
+code;
+const btnAddVal = () => {
+	setCounter((prevCounter) => prevCounter + 1)	// 16 will be printed
+	setCounter((prevCounter) => prevCounter + 1)	// 17 will be printed
+	setCounter((prevCounter) => prevCounter + 1)	// 18 will be printed
+	setCounter((prevCounter) => prevCounter + 1)	// 19 will be printed (final updation)
+}
+	[[[this is a callback present in the setCounter]]]
 
