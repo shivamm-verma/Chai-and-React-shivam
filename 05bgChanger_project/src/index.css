@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+    /* font-family: Eastman roman Trial; */
+    font-family: poppins;
+    font-weight: 500;
+}

@@ -140,3 +140,12 @@ const btnAddVal = () => {
 }
 	[[[this is a callback present in the setCounter]]]
 
+#Day8
+- in jsx file, syntac for changing bgc of element will be like this:
+	<div
+	className="ouliine none px-3 py-2 inset-x-0 bg-white text-black ..."
+	style={{backgroundColor: "red"}}> </div>
+
+- onClick only takes function inside it.
+
+
