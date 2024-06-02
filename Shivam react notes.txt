@@ -139,6 +139,7 @@ const btnAddVal = () => {
 	setCounter((prevCounter) => prevCounter + 1)	// 19 will be printed (final updation)
 }
 	[[[this is a callback present in the setCounter]]]
+- refer: https://medium.com/@mayank___17/react-hooks-is-setcounter-counter-1-the-correct-syntax-600a574c0ad3
 
 #Day8
 - in jsx file, syntac for changing bgc of element will be like this:
@@ -148,4 +149,37 @@ const btnAddVal = () => {
 
 - onClick only takes function inside it.
 
+#Day9
+hooks - [useEffect, useRef, useCallback]
+- useCallback - lets you put a fucntion in cache, enhances Optimization and memoization.
+- useEffect - fixes multiple re renders that react does not allow.
+	  useEffect(() => {
+    		passwordGenerator();
+		}, [length, numAllowed, charAllowed, passwordGenerator]);
+- useEffect calls for the  first-est time.
+
+- useRef - Does Not Cause Re-renders
+	If we tried to count how many times our application renders using the useState Hook, we would be caught in an infinite loop since this Hook itself causes a re-render.
+	To avoid this, we can use the useRef Hook.
+- useRef can track renders count in a react project;
+	const renderCount = useRef(0)
+		useEffect(() => {
+			renderCount.current += 1
+		}, [length, numAllowed, charAllowed, passwordGenerator]);
+- pass useRefin any input (atrr>>> ref={passwordRef})
+- in js, we can update Document title by;
+	document.title = renderCount.current
+	document.title = "Login Page"
+
+[Copy to Clipboard]
+-window obj. works in react, not in NextJs(server side rendering).
+- How to copy to clipboard;
+	  const copyToClipboard = useCallback(() => {
+    		passwordRef.current.select()
+    		window.navigator.clipboard.writeText(password);
+  	}, [password]);
+- use>>> passwordRef.current.select();
+	to select a useRef entity.
+-use>>> passwordRef.current?.setSelectionRange(0, 5);
+	to select from Fixed range.
 
