@@ -449,7 +449,7 @@ function App() {
 
       <br />
 
-      <h1 className="text-center font-bold text-5xl">Our Staff</h1>
+      <h1 className="text-center font-bold text-5xl mt-5">Our Staff</h1>
       <section class="mx-auto w-full max-w-7xl px-4 py-4">
         <div class="flex flex-col space-y-4 md:flex-row md:items-center md:justify-between md:space-y-0">
           <div>
@@ -635,8 +635,8 @@ function App() {
 
       <br /><br />
       {/* testimonials */}
-      <h1 className="text-center font-bold text-5xl m-0">Testimonials</h1>
-      <section class="px-2 py-10 md:px-0">
+      <h1 className="text-center font-bold text-5xl m-0 pb-2 mt-7">Testimonials</h1>
+      <section class="px-2 py-10 md:px-0 mb-0">
         <div class="mx-auto max-w-4xl">
           <div class="md:flex md:items-center md:justify-center md:space-x-14">
             <div class="relative h-48 w-48 flex-shrink-0">
