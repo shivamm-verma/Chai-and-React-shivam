@@ -183,3 +183,9 @@ hooks - [useEffect, useRef, useCallback]
 -use>>> passwordRef.current?.setSelectionRange(0, 5);
 	to select from Fixed range.
 
+#Day10
+{custom hooks, Currency Converter}
+- custom hooks, or simply hooks starts with "use" like useState, useEffect, useShivamMessage.
+- [new hook- useId]
+	const id = useId()
+	- generates unique IDs that can be passed to accessibility attributes.
