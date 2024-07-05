@@ -194,3 +194,35 @@ hooks - [useEffect, useRef, useCallback]
 	- https://www.freecodecamp.org/news/how-to-create-react-hooks/
 
 #Day11
+[React Router]
+- https://reactrouter.com/en/main/start/tutorial
+- To Install: npm install react-router-dom
+- {Interview} "a" is NOT used in React, because it refreshes the Whole page. Instead use "Link"
+- To make a Header NavLink of fixed color after visiting, use {isActive} ;
+	<li>
+                <NavLink
+                  to="/"
+                  className={({ isActive }) =>
+                    `block py-2 pr-4 pl-3 duration-200 ${
+                      isActive ? "text-orange-700" : "text-gray-700"
+                    } border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 hover:text-orange-700 lg:p-0`
+                  }
+                >
+                  Home
+                </NavLink>
+              </li>
+- Router is used in main.jsx
+- you need to create a Layout.jsx like this;
+	import Footer from "./components/Footer/Footer";
+	import { Outlet } from "react-router-dom";
+
+	function Layout() {
+	return (
+		<>
+		<Header />
+		<Outlet />
+		<Footer />
+		</>
+	);
+	}
+- <Outlet/> is where your other code will lie.
