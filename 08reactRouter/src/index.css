@@ -4,4 +4,16 @@
 
 * {
   font-family: poppins;
+  /* font-family: cascadia mono; */
+}
+
+.dark {
+  /* background-color: #212121; */
+  /* background-color: rgba(15, 23, 42, 0.850); */
+  background-color: rgb(30, 41, 59);
+  color: white;
+  transition: 0.5s ease-out;
+}
+.dark h2,ul,li {
+  color: white;
 }

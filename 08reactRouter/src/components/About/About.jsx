@@ -4,7 +4,7 @@ import { Link, NavLink } from "react-router-dom";
 export default function About() {
   document.title = "About Us";
   return (
-    <div className="py-16 bg-white">
+    <div className="py-16 bg-whit dark:bg-slate-800">
       <div className="container m-auto px-6 text-gray-600 md:px-12 xl:px-6">
         <div className="space-y-6 md:space-y-0 md:flex md:gap-6 lg:items-center lg:gap-12">
           <div className="md:5/12 lg:w-5/12">

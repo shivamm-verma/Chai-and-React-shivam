@@ -6,6 +6,7 @@ import Home from "./components/Home/Home";
 function App() {
   return (
     <>
+    {/* APP.JSX WAS NOT MUCH USED IN THIS CODE */}
       <h1 className="bg-pink-500  text-5xl font-semibold text-center py-4">
         React Router
       </h1>

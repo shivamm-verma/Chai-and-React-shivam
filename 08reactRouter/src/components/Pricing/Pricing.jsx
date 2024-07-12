@@ -20,7 +20,7 @@ export function Pricing() {
           <h1 className="mt-8 text-xl font-semibold">Got a Query? Ask.</h1>
           <div className="mt-4 flex w-full max-w-sm items-center space-x-2">
             <input
-              className="flex h-10 w-full rounded-md border border-black/30 bg-transparent px-3 py-2 text-sm placeholder:text-gray-600 focus:outline-none focus:ring-1 focus:ring-black/30 focus:ring-offset-1 disabled:cursor-not-allowed disabled:opacity-50"
+              className="flex h-10 w-full rounded-md border border-black/30 bg-transparent px-3 py-2 text-sm placeholder:text-gray-600 focus:outline-none focus:ring-1 focus:ring-black/30 focus:ring-offset-1 disabled:cursor-not-allowed disabled:opacity-50 dark:border-white dark:placeholder:text-gray-400"
               type="email"
               placeholder="Email"
             ></input>
@@ -51,32 +51,32 @@ export function Pricing() {
                 </p>
                 <ul className="mb-11">
                   <li className="mb-4 flex items-center">
-                    <CheckCircle className="mr-2" size={16} />
-                    <p className="font-semibold leading-normal">
+                    <CheckCircle className="mr-2 dark:text-black text-black" size={16} />
+                    <p className="font-semibold leading-normal dark:text-black text-black">
                       10 Team Members
                     </p>
                   </li>
                   <li className="mb-4 flex items-center">
-                    <CheckCircle className="mr-2" size={16} />
-                    <p className="font-semibold leading-normal">
+                    <CheckCircle className="mr-2 dark:text-black text-black" size={16} />
+                    <p className="font-semibold leading-normal dark:text-black text-black">
                       500+ Resources
                     </p>
                   </li>
                   <li className="mb-4 flex items-center">
-                    <CheckCircle className="mr-2" size={16} />
-                    <p className="font-semibold leading-normal">
+                    <CheckCircle className="mr-2 dark:text-black text-black" size={16} />
+                    <p className="font-semibold leading-normal dark:text-black text-black">
                       Premium Badges
                     </p>
                   </li>
                   <li className="mb-4 flex items-center">
-                    <CheckCircle className="mr-2" size={16} />
-                    <p className="font-semibold leading-normal">
+                    <CheckCircle className="mr-2 dark:text-black text-black" size={16} />
+                    <p className="font-semibold leading-normal dark:text-black text-black">
                       10 FreeMails to Leaders
                     </p>
                   </li>
                   <li className="flex items-center">
-                    <CheckCircle className="mr-2" size={16} />
-                    <p className="font-semibold leading-normal">
+                    <CheckCircle className="mr-2 dark:text-black text-black" size={16} />
+                    <p className="font-semibold leading-normal dark:text-black text-black">
                       Quick Support
                     </p>
                   </li>
@@ -96,13 +96,13 @@ export function Pricing() {
               </div>
             </div>
           </div>
-          <div className="w-full p-5 md:w-1/2">
+          <div className="w-full p-5 md:w-1/2 dark:text-black text-black">
             <div className="rounded-md border bg-white bg-opacity-90">
               <div className=" border-b">
                 <div className="px-9 py-7">
                   <h3 className="mb-3 text-xl font-bold leading-snug text-gray-900">
                     Pro
-                    <span className="m-0 ml-3 inline-block rounded-full border p-1 px-3 text-xs font-semibold opacity-100">
+                    <span className="m-0 ml-3 inline-block rounded-full border p-1 px-3 text-xs font-semibold opacity-100 dark:border-gray-400">
                       Contains all features of Basic
                     </span>
                   </h3>
@@ -112,38 +112,38 @@ export function Pricing() {
                   </p>
                 </div>
               </div>
-              <div className="px-9 pb-9 pt-8">
+              <div className="px-9 pb-9 pt-8 ">
                 <p className="mb-6 font-medium leading-relaxed text-gray-600">
                   Features included:
                 </p>
                 <ul className="mb-11">
                   <li className="mb-4 flex items-center">
-                    <CheckCircle className="mr-2" size={16} />
-                    <p className="font-semibold leading-normal">
+                    <CheckCircle className="mr-2 dark:text-black text-black" size={16} />
+                    <p className="font-semibold leading-normal dark:text-black text-black">
                       Unlimited team Creation
                     </p>
                   </li>
                   <li className="mb-4 flex items-center">
-                    <CheckCircle className="mr-2" size={16} />
-                    <p className="font-semibold leading-normal">
+                    <CheckCircle className="mr-2 dark:text-black text-black" size={16} />
+                    <p className="font-semibold leading-normal dark:text-black text-black">
                       1200+ Free Resources
                     </p>
                   </li>
                   <li className="mb-4 flex items-center">
-                    <CheckCircle className="mr-2" size={16} />
-                    <p className="font-semibold leading-normal">
+                    <CheckCircle className="mr-2 dark:text-black text-black" size={16} />
+                    <p className="font-semibold leading-normal dark:text-black text-black">
                       contact of High Achievers
                     </p>
                   </li>
                   <li className="mb-4 flex items-center">
-                    <CheckCircle className="mr-2" size={16} />
-                    <p className="font-semibold leading-normal">
+                    <CheckCircle className="mr-2 dark:text-black text-black" size={16} />
+                    <p className="font-semibold leading-normal dark:text-black text-black">
                       Individual Email Account
                     </p>
                   </li>
                   <li className="flex items-center">
-                    <CheckCircle className="mr-2" size={16} />
-                    <p className="font-semibold leading-normal">
+                    <CheckCircle className="mr-2 dark:text-black text-black" size={16} />
+                    <p className="font-semibold leading-normal dark:text-black text-black">
                       Direct-messaging to Leaders
                     </p>
                   </li>

@@ -226,3 +226,19 @@ hooks - [useEffect, useRef, useCallback]
 	);
 	}
 - <Outlet/> is where your other code will lie.
+- Look up docs in React Router dom: 
+- learn Loader in Router (in react router dom)
+	<Route 
+		loader={GithubInfoLoader}
+		path="github" 
+		element={<Github />}/>
+
+- To optimise(optimization) and fast load up an API, then Look at ending of <Github/> or Github.jsx file:
+	export const GithubInfoLoader = async () => {
+	const response = await fetch("https://api.github.com/users/shivamm-verma");
+	return response.json();
+	};
+	Then, use hook: 
+	import { useLoaderData } from "react-router-dom";
+	
+- 
