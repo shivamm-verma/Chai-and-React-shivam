@@ -226,7 +226,9 @@ hooks - [useEffect, useRef, useCallback]
 	);
 	}
 - <Outlet/> is where your other code will lie.
-- Look up docs in React Router dom: 
+- Look up docs in React Router dom:
+#Day12
+[Loader in React-router-dom]
 - learn Loader in Router (in react router dom)
 	<Route 
 		loader={GithubInfoLoader}
@@ -241,4 +243,8 @@ hooks - [useEffect, useRef, useCallback]
 	Then, use hook: 
 	import { useLoaderData } from "react-router-dom";
 	
+#Day13
+[Context API]
+
+- UserContext is like a "Global Variable/Provider"
 - 
