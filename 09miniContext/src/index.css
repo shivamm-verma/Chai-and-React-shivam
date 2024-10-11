@@ -1,7 +1,43 @@
 * {
   font-family: poppins;
+  font-weight: 600;
+  text-align: center;
 }
 body{
   background-color: #242424;
   color: beige;
+}
+
+.card{
+  /* background-color: red; */
+  margin: 10px auto;
+  background-color:  #121212;
+  box-shadow: 0px  0px 20px rgba(255, 255, 255, 0.158);
+  width: fit-content;
+  padding: 1rem;
+  padding-bottom: 2rem;
+  border-radius: 15px;
+  margin-bottom: 4rem;
+  margin-top: 4rem;
+  transform: scale(1.2);
+}
+
+/* taken from the web */
+.welc {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 65px;
+  color: #fff;
+  text-align: center;
+  -webkit-animation: welc 2s ease-in-out infinite alternate;
+  -moz-animation: welc 2s ease-in-out infinite alternate;
+  animation: welc 2s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes welc {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #ff0000e3, 0 0 40px #ff0000e3, 0 0 50px #ff0000e3, 0 0 60px #ff0000e3, 0 0 70px #ff0000e3;
+  }
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px #4d5fff, 0 0 40px #4d5fff, 0 0 50px #4d5fff, 0 0 60px #4d5fff, 0 0 70px #4d5fff, 0 0 80px #4d5fff;
+  }
 }
