@@ -1,8 +1,21 @@
-# React + Vite
+# Gym Shim Shivam
+This is a Gym website made by Shivam Verma as a Self project, integrating ReactJs, Tailwind CSS, Javascript, Auth0, CSS, etc.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
+### Preview of the Website
+![Preview](./assets/Preview_Image.png)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+
+### Website link⤵️⤵️
+[Visit The Website, here.](https://gymshimshivam.netlify.app/)
+
+
+## Projects Skills Used:
+- `ReactJs` & Hooks : Frontend
+- `Auth0` :  for login & logout
+- 
+
+
+
+### Codebase Size
+<img src="https://img.shields.io/github/repo-size/shivamm-verma/gym-shim-shivam.svg?label=Repo%20size&style=flat-square" height="20">
