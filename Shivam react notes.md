@@ -298,3 +298,11 @@ import { useLoaderData } from "react-router-dom";
 - UserContext is like a "Global Variable/Provider"
 - use 10ThemeChanger and 09miniContext projects to revise `useContext` and create contexts.
 - also we can create a hook using `useContext` to not import everything everywhere.
+
+## Day14
+### [Context & Local Storage]
+### Todo App
+
+- Context again repeated today.
+- Local Storage is little hard.
+- 
